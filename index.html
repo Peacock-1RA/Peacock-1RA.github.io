@@ -41,8 +41,25 @@ h2{
 }
 .col{
     background-color: white;
+    padding-top:20px;
+    padding-bottom:20px;
 }
-
+.texto{
+  margin-top:70px;
+}
+.botao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-left: 0px; 
+  margin-bottom: 10px;
+}
 </style>
 </head>
 <body>
@@ -57,33 +74,50 @@ h2{
         </div>
         <div class="row">
           <div class="col">
+            <a href="#sobre a empresa"> <button class="btn botao"> Sobre a empresa</button></a>
+         </div>
+         <div class="col">
+          <a href="#sobre o produto"> <button class="btn botao"> Sobre o produto</button></a>
+       </div>
+       <div class="col">
+        <a href="#sobre os funcionários"> <button class="btn botao"> Sobre os funcionários</button></a>
+     </div>
+          <div class="col">
+             <a href="#localização"> <button class="btn botao"> Localização</button></a>
+          </div>
+          <div class="col">
+            <a href="#contatos"> <button class="btn botao"> Contatos</button></a>
+         </div>
+          </div>
+        <div class="row">
+          <div class="col">
          <h2> Introdução</h2>
           </div>
           <div class="col">
-            <p>Diversos pássaros tem seu habitat destruído, com isso, eles correm para as cidades aonde tem árvores frutíferas ou para regiões com lagos e rios, para que eles consigam suprir suas necessidades de viver. Pensando na necessidade dessas aves, o Peacock foi criado para ajudá-los. O Peacock funciona de uma forma em que não faz sujeira, e é seguro para as aves se alimentarem, e você pode colaborar com essa ideia.</p>
+            <p class="texto">Diversos pássaros tem seu habitat destruído, com isso, eles correm para as cidades aonde tem árvores frutíferas ou para regiões com lagos e rios, para que eles consigam suprir suas necessidades de viver. Pensando na necessidade dessas aves, o Peacock foi criado para ajudá-los. O Peacock funciona de uma forma em que não faz sujeira, e é seguro para as aves se alimentarem, e você pode colaborar com essa ideia.</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="sobre a empresa"> 
             <div class="col">
                 <h2>Sobre a empresa</h2>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                    <p>Estamos no mercado há cinco (5) anos, conquistando integralmente o público voltado a Pets. Tornamo-nos referência dentro do mundo animal, atendendo as quaisquer necessidade de nossos clientes e amigos, aqui prezamos pelo bem-estar e a satisfação. Além de produtos esteticamente glamorosos, utilizamos IOT (internet of things) para otimizar sua experiência! Venha conosco cultivar a vida de seu companheiro.</p>
+                    <p class="texto">Estamos no mercado há cinco (5) anos, conquistando integralmente o público voltado a Pets. Tornamo-nos referência dentro do mundo animal, atendendo as quaisquer necessidade de nossos clientes e amigos, aqui prezamos pelo bem-estar e a satisfação. Além de produtos esteticamente glamorosos, utilizamos IOT (internet of things) para otimizar sua experiência! Venha conosco cultivar a vida de seu companheiro.</p>
             </div> 
                 <div class="col"> 
                     <img src=https://media.discordapp.net/attachments/880465220412248124/880516986797441024/unknown.png? width="400"  height="319" style="float:right" > 
                 </div>   
         </div>
-        <div class="row">
+        <div class="row" id="sobre o produto">
           <div class="col">
               <h2>Sobre o produto</h2>
           </div>
       </div>
       <div class="row">
           <div class="col">
-                  <p>-Comedor coletivo para pássaros ao ar livre</p>
+                  <p class="texto">-Comedor coletivo para pássaros ao ar livre</p>
                     <p>-Indicado para alimentação de aves</p>
                     <p>-Esteira com sistema inteligente </p>
                     <p>-Produzida à partir de madeira revestida de verniz </p> 
@@ -102,7 +136,7 @@ h2{
                 <img src=https://media.discordapp.net/attachments/880465220412248124/880522637762261082/unknown.png width="400"  height="319" style="float:right" > 
             </div> 
             </div>
-            <div class="row">
+            <div class="row" id="sobre os funcionários">
               <div class="col">
                   <h2>Sobre os funcionários</h2>
               </div>
@@ -112,13 +146,13 @@ h2{
                       <img src=https://media.discordapp.net/attachments/880465220412248124/880525329226141736/unknown.png width="300"  height="319" style="float:left" > 
               </div> 
                   <div class="col"> 
-                    <p>Médica veterinária com formação pela UNESP – Universidade Estadual Paulista Júlio de Mesquita Filho (2017), possui residência em Clínica médica de Carnívoros domésticos pela UFBA (2019), possui mestrado em Medicina Veterinaria com ênfase em nutrição e endocrinologia (2020), pós graduada em Clínica e Cirurgia de Pequenos animais. Há três anos trabalhando em Clínica Veterinária Própria.</p>
+                    <p class="texto">Médica veterinária com formação pela UNESP – Universidade Estadual Paulista Júlio de Mesquita Filho (2017), possui residência em Clínica médica de Carnívoros domésticos pela UFBA (2019), possui mestrado em Medicina Veterinaria com ênfase em nutrição e endocrinologia (2020), pós graduada em Clínica e Cirurgia de Pequenos animais. Há três anos trabalhando em Clínica Veterinária Própria.</p>
                   </div>  
                   </div>
                 
                 <div class="row">
                     <div class="col">
-                            <p>Formada em Engenharia de Produção através da  USP – Universidade de São Paulo (2016), vasta experiência em Produção de Projetos, Logística e Manutenção, com especialização em Administração de empresas e Gestão de Processos em Ambientes Corporativos e palestrante - UNIVASF. Sendo uma referência dentro do mercado de trabalho.</p>
+                            <p class="texto">Formada em Engenharia de Produção através da  USP – Universidade de São Paulo (2016), vasta experiência em Produção de Projetos, Logística e Manutenção, com especialização em Administração de empresas e Gestão de Processos em Ambientes Corporativos e palestrante - UNIVASF. Sendo uma referência dentro do mercado de trabalho.</p>
                     </div> 
                         <div class="col"> 
                             <img src=https://media.discordapp.net/attachments/880465220412248124/880525397761093632/unknown.png width="280"  height="319" style="float:right" > 
@@ -129,26 +163,26 @@ h2{
                           <img src=https://media.discordapp.net/attachments/880465220412248124/880539477666320475/5dec8ff2-50da-49d4-ba39-dd2366cd768a.png? width="320"  height="427" style="float:left" > 
                   </div> 
                       <div class="col"> 
-                        <p>Formação em Marketing- UNISINOS — Universidade do Vale do Rio dos Sinos (2017), sendo seu público-alvo donos de pets e empresas relacionadas. Possui em cursos de Excel avançado- Clarify, certificado de proficiência em inglês- TOELF, Desenvolvimento Web Full Stack -DigitalHouse (Coding School) e Web Design- Relevo Up.</p>
+                        <p class="texto">Formação em Marketing- UNISINOS — Universidade do Vale do Rio dos Sinos (2017), sendo seu público-alvo donos de pets e empresas relacionadas. Possui em cursos de Excel avançado- Clarify, certificado de proficiência em inglês- TOELF, Desenvolvimento Web Full Stack -DigitalHouse (Coding School) e Web Design- Relevo Up.</p>
                       </div>  
                       </div>
                       <div class="row">
                         <div class="col">
-                                <p>Piscicóloga formada pela Universidade Federal de Minas Gerais (UFMG), e em Etologia Animal. Pós-graduada em Zootecnica e Biologia, Doutoranda no programa de Ciência Animal da PUCPR e professora pelo INSPA.</p>
+                                <p class="texto">Piscicóloga formada pela Universidade Federal de Minas Gerais (UFMG), e em Etologia Animal. Pós-graduada em Zootecnica e Biologia, Doutoranda no programa de Ciência Animal da PUCPR e professora pelo INSPA.</p>
                         </div> 
                             <div class="col"> 
                                 <img src=https://media.discordapp.net/attachments/880465220412248124/880540426317213746/unknown.png width="280"  height="319" style="float:right" > 
                             </div>
                           </div>
-                          <div class="row">
+                          <div class="row" id="localização">
                             <div class="col">
                            <h2> Localização</h2>
                             </div>
                             <div class="col">
-                              <img src=https://media.discordapp.net/attachments/880465220412248124/880466979041984512/unknown.png width="400"  height="319" style="float:right" > 
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.113165349044!2d-46.705427685384784!3d-23.528431866261347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef87be84c5307%3A0xad6e72ce85571248!2zQ29sw6lnaW8gTcOzZHVsbw!5e0!3m2!1sen!2sbr!4v1630068825594!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                           </div>
-                          <div class="row">
+                          <div class="row" id="contatos">
                             <div class="col">
                                 <h2>Contatos</h2>
                             </div>
